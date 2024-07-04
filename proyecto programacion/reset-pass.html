@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles-login.css">
+    <link rel="icon" href="/images/icon.png">
+    <title>Restablecer Contraseña</title>
+</head>
+<body>
+    <section class="container">
+        <h2>Restablecer Contraseña</h2>
+        <form id="resetPasswordForm" class="form-group">
+          <label for="email">Mail:</label>
+          <input type="email" id="email" required placeholder="Escriba su correo electrónico">
+          <label class="margin-1r" for="newPassword" >Nueva Contraseña:</label>
+          <input type="password" id="newPassword" required placeholder="Escriba su nueva contraseña">
+          <label class="margin-1r"></label>
+          <label class="margin-1r" >Fecha de nacimiento dd/mm/aaaa</label>
+          <input type="text" id="answer" required placeholder="Escriba su fecha de nacimiento">
+          <input class="margin-1r button-login" type="submit" value="Confirmar">
+          <a class="margin-1r" href="/login.html">Regresar</a>
+        </form>
+  <script src="/scripts/reset.js"></script>
+</body>
+</html>

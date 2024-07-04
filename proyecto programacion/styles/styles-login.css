@@ -1,0 +1,223 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/images/background.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container {
+    background: white;
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.238);
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 0.4rem;
+    border-color: rgba(92, 92, 92, 0.932);
+    background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+    box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.20);
+
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 2rem;
+    background: #7a9449;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button-login {
+    margin-top: 2rem;
+    border: none;
+    color: white;
+    background: #7a9449;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #6b8638;
+}
+.button-login:hover {
+    background: #3e5318;
+    transition: 0.5s;
+    border-style: solid;
+    border-color: #3e5318;
+}
+.links a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+
+.margin-1r {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* .white-text {
+    color: white;
+} */
+
+.align-center {
+    text-align: center;
+}
+
+.text-decoration {
+    text-decoration: none;
+}
+
+.no-margin {
+    margin-top: -1rem;
+}
+
+
+input:hover {
+    border-style: solid;
+    border-width: 0.15rem;
+    border-radius: 0.2rem;
+}
+
+@media (max-width: 768px) {
+    html {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url(/images/background.jfif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container {
+        background: white;
+        padding: 20px;
+        width: 80%;
+        border-radius: 5px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.238);
+        border-style: solid;
+        border-width: 0.1rem;
+        border-radius: 0.4rem;
+        border-color: rgba(92, 92, 92, 0.932);
+        background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+        box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.20);
+    
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .form-group input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+    .form-group button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 2rem;
+        background: #7a9449;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .button-login {
+        margin-top: 2rem;
+        border: none;
+        color: white;
+        background: #7a9449;
+        cursor: pointer;
+        transition: 0.5s;
+        border-radius: 3px;
+        border-style: solid;
+        border-color: #6b8638;
+    }
+    .button-login:hover {
+        background: #3e5318;
+        transition: 0.5s;
+        border-style: solid;
+        border-color: #3e5318;
+    }
+    .links a {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        color: #007BFF;
+        text-decoration: none;
+    }
+    .links a:hover {
+        text-decoration: underline;
+    }
+    
+    .margin-1r {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    
+    /* .white-text {
+        color: white;
+    } */
+    
+    .align-center {
+        text-align: center;
+    }
+    
+    .text-decoration {
+        text-decoration: none;
+    }
+    
+    .no-margin {
+        margin-top: -1rem;
+    }
+    
+    
+    input:hover {
+        border-style: solid;
+        border-width: 0.15rem;
+        border-radius: 0.2rem;
+    }
+    
+}

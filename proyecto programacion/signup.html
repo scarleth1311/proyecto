@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles-login.css">
+    <link rel="icon" href="/images/icon.png">
+    <title>Registro</title>
+</head>
+<body>
+    <section class="container">
+        <h2>Registro</h2>
+        <form id="signupForm" class="form-group">
+            <label>Nombre</label>
+            <input type="text" placeholder="Escribe tu nombre" id="name" required autofocus>
+            <label class="margin-1r">Mail</label>
+            <input type="email" placeholder="Escribe tu corro electrónico" id="email" required>
+            <label class="margin-1r">Contraseña</label>
+            <input type="password" placeholder="Escribe tu contraseña" id="password" required>
+            <label class="margin-1r">Fecha de nacimiento dd/mm/aaaa</label>
+            <input type="text" placeholder="Escribe tu fecha de nacimiento" id="answer" required>
+            <input class="button-login" type="submit" value="Registro">
+        </form>
+        <p>Ya tienes una cuenta? <a href="login.html">Login</a></p>
+        <a href="login.html">Regresar</a>
+    </section>
+    <script src="/scripts/signup.js"></script>
+</body>
+</html>
